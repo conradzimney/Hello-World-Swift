@@ -31,24 +31,13 @@
                                     <action selector="labelChanger:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QuJ-IT-CgU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s1w-nq-U3e">
-                                <rect key="frame" x="265" y="550" width="71" height="30"/>
-                                <state key="normal" title="Other Text">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="labelChanger:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0uf-Ww-prE"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="Qcl-Nj-aL4" secondAttribute="centerX" constant="-0.5" id="18M-HR-DO6"/>
                             <constraint firstItem="mkJ-Gb-ylu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="3zR-6P-pHN"/>
-                            <constraint firstAttribute="centerX" secondItem="s1w-nq-U3e" secondAttribute="centerX" constant="-0.5" id="9GM-jq-7VY"/>
                             <constraint firstAttribute="centerY" secondItem="Qcl-Nj-aL4" secondAttribute="centerY" constant="0.5" id="ISy-YT-PXn"/>
                             <constraint firstAttribute="centerX" secondItem="mkJ-Gb-ylu" secondAttribute="centerX" id="K5h-Fu-sA2"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="s1w-nq-U3e" secondAttribute="bottom" constant="20" id="URo-y4-JPC"/>
                         </constraints>
                     </view>
                     <connections>

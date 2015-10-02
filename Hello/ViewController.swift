@@ -15,7 +15,7 @@ class ViewController: UIViewController {
 
     @IBAction func labelChanger(sender: UIButton)
     {
-        let buttonText = sender.currentTitle!
+        let buttonText = "Go Seahawks!"
         
         mainText.text = buttonText
         
